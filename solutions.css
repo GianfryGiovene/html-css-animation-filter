@@ -12,7 +12,7 @@
     transition: width 5s;
 }
 
-.ex-2-square:hover{
+.ex-2-square:active{
     width: 700px;
 }
 /* / EXERCISE 2 */
@@ -28,15 +28,59 @@
 /* / EXERCISE 3 */
 
 /* EXERCISE 4 */
+.ex-4-square{
+    animation: disappear 5s;
+}
+
+@keyframes disappear{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(0);
+    }
+}
 /* / EXERCISE 4 */
 
 /* EXERCISE 5 */
+.ex-5-square{
+    transition: transform 5s;
+}
+
+.ex-5-square:hover{
+    transform: scale(1.5);
+}
+
+.ex-5-square:active{
+    transform: scale(0.5);
+}
 /* / EXERCISE 5 */
 
 /* EXERCISE 6 */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
 /* / EXERCISE 6 */
 
 /* EXERCISE 7 */
+.ex-7-img{
+    animation: filters 5s; 
+}
+
+@keyframes filters{
+    0%{
+        filter: brightness(200%);
+        filter: grayscale(0%);
+        
+    }
+    
+    100%{
+        filter: grayscale(100%);
+        filter: brightness(100%)
+    }
+}
+
 /* / EXERCISE 7 */
 
 /* EXERCISE 8 */
