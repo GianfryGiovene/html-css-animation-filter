@@ -1,0 +1,58 @@
+/* EXERCISE 1 */
+.ex-1-square{
+    transition: background-color 5s;
+}
+.ex-1-square:hover {
+     background-color: red;
+}
+/* / EXERCISE 1 */
+
+/* EXERCISE 2 */
+.ex-2-square{
+    transition: width 5s;
+}
+
+.ex-2-square:hover{
+    width: 700px;
+}
+/* / EXERCISE 2 */
+
+/* EXERCISE 3 */
+.ex-3-square{
+    transition: border-radius 5s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+/* / EXERCISE 3 */
+
+/* EXERCISE 4 */
+/* / EXERCISE 4 */
+
+/* EXERCISE 5 */
+/* / EXERCISE 5 */
+
+/* EXERCISE 6 */
+/* / EXERCISE 6 */
+
+/* EXERCISE 7 */
+/* / EXERCISE 7 */
+
+/* EXERCISE 8 */
+/* / EXERCISE 8 */
+
+/* EXERCISE 9 */
+/* / EXERCISE 9 */
+
+/* EXERCISE 10 */
+/* / EXERCISE 10 */
+
+/* EXERCISE 11 */
+/* / EXERCISE 11 */
+
+/* EXERCISE 12 */
+/* / EXERCISE 12 */
+
+/* EXERCISE 13 */
+/* / EXERCISE 13 */
