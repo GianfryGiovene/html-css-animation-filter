@@ -70,20 +70,17 @@
 
 @keyframes filters{
     0%{
-        filter: brightness(200%);
-        filter: grayscale(0%);
-        
+        filter: grayscale(0%) blur(0px);   
     }
     
     100%{
-        filter: grayscale(100%);
-        filter: brightness(100%)
+        filter: grayscale(100%) blur(10px);
     }
 }
-
 /* / EXERCISE 7 */
 
 /* EXERCISE 8 */
+
 /* / EXERCISE 8 */
 
 /* EXERCISE 9 */
