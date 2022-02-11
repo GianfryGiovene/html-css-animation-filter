@@ -176,7 +176,7 @@
     }
 } 
 .ex-12-bottom-white{
-    animation: spin-rotation-bot 5s ;
+    animation: spin-rotation-bot 5s;
 }
 @keyframes spin-rotation-bot{
     from{
@@ -187,8 +187,58 @@
         transform: translateX(-180%);
     }
 } 
-
 /* / EXERCISE 12 */
 
 /* EXERCISE 13 */
+
+.ex-13-top-white{
+    animation: spin-rotation-top-13 5s linear infinite;
+}
+@keyframes spin-rotation-top-13{
+    0%{
+        top: -10px;
+        left: 10%;   
+    }
+    
+   59%{
+       top: -10px;
+       left: 80%;
+       transform: rotate(0);  
+    }
+    60%{
+        top: -10px;
+        left: 85%;
+        transform: rotate(90deg);
+    }
+    100%{
+        top: 50%;
+        left: 85%;
+        transform: rotate(90deg);
+    }
+} 
+.ex-13-bottom-white{
+    animation: spin-rotation-bot-13 5s linear infinite;
+}
+@keyframes spin-rotation-bot-13{
+    0%{
+        bottom: -10px;
+        right: 20%;   
+    }
+    
+   59%{
+       bottom: -10px;
+       right: 80%;
+       transform: rotate(0);  
+    }
+    60%{
+        bottom: -10px;
+        right: 85%;
+        transform: rotate(90deg);
+    }
+    100%{
+        bottom: 50%;
+        right: 85%;
+        transform: rotate(90deg);
+    }
+} 
 /* / EXERCISE 13 */
