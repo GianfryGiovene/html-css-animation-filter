@@ -119,10 +119,10 @@
 
 /* EXERCISE 10 */
 .ex-10-icon{
-    animation: babudoio 5s linear infinite;
+    animation: rotation 5s linear infinite;
 }
 
-@keyframes babudoio{
+@keyframes rotation{
     from{
         transform: rotate(0deg) ;
     }
@@ -133,11 +133,13 @@
 }
 
 /* / EXERCISE 10 */
+
+/* EXERCISE 11 */
 .ex-11-icon:hover{
-    animation: babudoio 5s linear infinite;
+    animation: three-quarters-rotation 5s linear infinite;
 }
 
-@keyframes babudoio{
+@keyframes three-quarters-rotation{
     0%{
         transform: rotate(0deg) ;
     }
@@ -158,12 +160,34 @@
         transform: rotate(0deg);
     }
 }
-
-
-/* EXERCISE 11 */
 /* / EXERCISE 11 */
 
 /* EXERCISE 12 */
+.ex-12-top-white{
+    animation: spin-rotation-top 5s ;
+}
+@keyframes spin-rotation-top{
+    from{
+        transform: translateX(-50%);
+    }
+
+    to{
+        transform: translateX(200%);
+    }
+} 
+.ex-12-bottom-white{
+    animation: spin-rotation-bot 5s ;
+}
+@keyframes spin-rotation-bot{
+    from{
+        transform: translateX(50%);
+    }
+
+    to{
+        transform: translateX(-180%);
+    }
+} 
+
 /* / EXERCISE 12 */
 
 /* EXERCISE 13 */
