@@ -115,11 +115,50 @@
         transform: scale(1.5);
     }
 }
-
 /* / EXERCISE 9 */
 
 /* EXERCISE 10 */
+.ex-10-icon{
+    animation: babudoio 5s linear infinite;
+}
+
+@keyframes babudoio{
+    from{
+        transform: rotate(0deg) ;
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
 /* / EXERCISE 10 */
+.ex-11-icon:hover{
+    animation: babudoio 5s linear infinite;
+}
+
+@keyframes babudoio{
+    0%{
+        transform: rotate(0deg) ;
+    }
+
+    25%{
+        transform: rotate(90deg) ;
+    }
+    
+    50%{
+        transform: rotate(180deg) ;
+    }
+    
+    75%{
+        transform: rotate(270deg) ;
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 
 /* EXERCISE 11 */
 /* / EXERCISE 11 */
